@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AutomataControls/Talos/releases"><img src="https://img.shields.io/github/v/release/AutomataControls/Talos?style=flat-square&color=blue" alt="Release"></a>
-  <a href="https://github.com/AutomataControls/Talos/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Proprietary-red?style=flat-square" alt="License"></a>
+  <a href="https://github.com/AutomataNexus/Talos/releases"><img src="https://img.shields.io/github/v/release/AutomataNexus/Talos?style=flat-square&color=blue" alt="Release"></a>
+  <a href="https://github.com/AutomataNexus/Talos/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Proprietary-red?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/platform-Raspberry%20Pi-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/lang-Rust-orange?style=flat-square&logo=rust&logoColor=white" alt="Rust">
   <img src="https://img.shields.io/badge/I2C-Sequent%20Microsystems-green?style=flat-square" alt="I2C">
@@ -17,7 +17,7 @@
 
 **Talos** is a Rust-based hardware daemon for reliable, low-latency I2C communication with [Sequent Microsystems](https://sequentmicrosystems.com/) HATs on Raspberry Pi. It is the sole owner of the I2C bus — all hardware reads and writes flow through its HTTP API on port `6100`.
 
-Part of the [NexusEdge](https://github.com/AutomataControls) industrial control platform by **AutomataNexus**.
+Part of the [NexusEdge](https://github.com/AutomataNexus) industrial control platform by **AutomataNexus**.
 
 ## Features
 
@@ -83,16 +83,16 @@ Each board type supports stacking up to **8 units** (address = base + stack, 0�
 
 ### From Release Binary
 
-Download the latest binary from [Releases](https://github.com/AutomataControls/Talos/releases):
+Download the latest binary from [Releases](https://github.com/AutomataNexus/Talos/releases):
 
 ```bash
 # Raspberry Pi 3/4 (32-bit) — ARMv7
-wget https://github.com/AutomataControls/Talos/releases/latest/download/talos-hwdaemon-armv7
+wget https://github.com/AutomataNexus/Talos/releases/latest/download/talos-hwdaemon-armv7
 chmod +x talos-hwdaemon-armv7
 sudo mv talos-hwdaemon-armv7 /usr/local/bin/talos-hwdaemon
 
 # Raspberry Pi 4/5 (64-bit) — AArch64
-wget https://github.com/AutomataControls/Talos/releases/latest/download/talos-hwdaemon-aarch64
+wget https://github.com/AutomataNexus/Talos/releases/latest/download/talos-hwdaemon-aarch64
 chmod +x talos-hwdaemon-aarch64
 sudo mv talos-hwdaemon-aarch64 /usr/local/bin/talos-hwdaemon
 ```
