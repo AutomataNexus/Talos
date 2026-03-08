@@ -1,0 +1,4 @@
+# Force GitHub to recognize this as a Rust project
+*.js linguist-detectable=false
+*.md linguist-documentation
+release/* linguist-vendored
