@@ -1,4 +1,6 @@
 # Force GitHub to recognize this as a Rust project
+Cargo.toml linguist-language=Rust
+hardware_daemon/Cargo.toml linguist-language=Rust
 *.js linguist-detectable=false
 *.md linguist-documentation
 release/* linguist-vendored
