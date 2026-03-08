@@ -1,0 +1,48 @@
+# NexusEdge Universal Hardware Daemon Configuration
+# Place this file at /etc/nexusedge/hardware-daemon.toml or in the daemon's working directory.
+
+[server]
+host = "127.0.0.1"
+port = 6100
+
+[polling]
+interval_ms = 1000
+timeout_ms = 500
+
+[i2c]
+bus = 1
+retry_count = 3
+retry_delay_ms = 10
+
+[logging]
+level = "info"
+file = "/var/log/nexusedge/hardware-daemon.log"
+
+# Board Configuration
+# Each board type supports up to 8 stacks (0-7).
+# Use 'stacks = [0, 1, 2]' for multiple boards of the same type.
+# Use 'enabled = false' to disable a board type entirely.
+
+[boards.megabas]
+enabled = true
+stacks = [0]
+
+[boards.megaind]
+enabled = false
+stacks = []
+
+[boards.univin16]
+enabled = false
+stacks = []
+
+[boards.uout16]
+enabled = false
+stacks = []
+
+[boards.relind16]
+enabled = false
+stacks = []
+
+[boards.relind8]
+enabled = false
+stacks = []

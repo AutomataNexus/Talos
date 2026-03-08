@@ -1,0 +1,22 @@
+# NexusEdge platform (separate repo)
+/NexusEdge/
+
+# Daemon source code (proprietary)
+/hardware_daemon/src/
+/hardware_daemon/Cargo.toml
+/hardware_daemon/Cargo.lock
+/hardware_daemon/.cargo/
+/hardware_daemon/target/
+
+# Archives
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
