@@ -17,7 +17,7 @@
 
 **Talos** is a Rust-based hardware daemon for reliable, low-latency I2C communication with [Sequent Microsystems](https://sequentmicrosystems.com/) HATs on Raspberry Pi. It is the sole owner of the I2C bus — all hardware reads and writes flow through its HTTP API on port `6100`.
 
-Part of the [NexusEdge](https://github.com/AutomataNexus) industrial control platform by **AutomataNexus**.
+Part of the [NexusEdge](https://automatanexus.com/products/nexusedge) industrial control platform by **AutomataNexus**.
 
 ## Features
 
